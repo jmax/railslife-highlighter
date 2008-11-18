@@ -1,0 +1,50 @@
+h1. railslife sintax highliter
+
+railslife-highliter is a very simple and lightweight sintax highlighter for ruby.
+
+h3. Dependencies
+
+This script requires the *syntax gem*. 
+
+<pre><code>
+  (sudo) gem install syntax
+</code></pre>
+
+h3. Syntax
+
+Very simple:
+
+<pre><code>
+  ruby railslife-highliter.rb /path/to/your/ruby/code.rb
+</code></pre>
+
+h3. Example
+
+Let's say you have a code.rb file with this content:
+
+<pre><code>
+  class Hello
+    def say_hi
+      puts "hi, railslife-highlighter"
+    end
+  end
+</code></pre>
+
+You run:
+
+<pre><code>
+  ruby railslife-highliter.rb code.rb
+</code></pre>
+
+The result output you'll get:
+
+<pre><code>
+<pre><span class="keyword">class </span><span class="class">Hello</span>
+  <span class="keyword">def </span><span class="method">say_hi</span>
+    <span class="ident">puts</span> <span class="punct">&quot;</span><span class="string">hi, railslife-highlighter</span><span class="punct">&quot;</span>
+  <span class="keyword">end</span>
+<span class="keyword">end</span>
+</pre>
+</code></pre>
+
+That's all for now.
