@@ -1,4 +1,4 @@
-h1. railslife sintax highliter
+h1. railslife sintax highlighter
 
 railslife-highliter is a very simple and lightweight sintax highlighter for ruby.
 
