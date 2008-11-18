@@ -1,0 +1,31 @@
+pre {
+    background-color: #2B2B2B;
+    color: #f4f4f4;
+    padding: 10px;
+    font-size: 1.1em;
+    overflow: auto;
+    margin: 4px 0px;
+    width: 95%;
+}
+
+
+
+/* Syntax highlighting */
+pre .normal {}
+pre .comment { color: #BC9458; font-style: italic; }
+pre .keyword { color: #CC7833; font-weight: bold; }
+pre .method { color: #f4f4f4; }
+pre .class { color: #f4f4f4; }
+pre .module { color: #050; }
+pre .punct { color: #ebebeb; font-weight: bold; }
+pre .symbol { color: #099; }
+pre .string { color: #A5C261;}
+pre .char { color: #F07; }
+pre .ident { color: #f4f4f4; }
+pre .constant { color: #f4f4f4; }
+pre .regex, .regex .punct { color: #5bb; font-weight: bold; }
+pre .number { color: #F99; }
+pre .attribute { color: green; font-weight: bold; }
+pre .global { color: #7FB; }
+pre .expr { color: #227; }
+pre .escape { color: #277; } 
