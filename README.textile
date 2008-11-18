@@ -41,7 +41,8 @@ The result output you'll get:
 <pre><code>
 <pre><span class="keyword">class </span><span class="class">Hello</span>
   <span class="keyword">def </span><span class="method">say_hi</span>
-    <span class="ident">puts</span> <span class="punct">&quot;</span><span class="string">hi, railslife-highlighter</span><span class="punct">&quot;</span>
+    <span class="ident">puts</span> <span class="punct">&quot;</span>
+    <span class="string">hi, railslife-highlighter</span><span class="punct">&quot;</span>
   <span class="keyword">end</span>
 <span class="keyword">end</span>
 </pre>
